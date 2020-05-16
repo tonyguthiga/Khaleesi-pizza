@@ -128,28 +128,32 @@
       </div>
       <div class="container" id="contact">
         <h2><strong>Contact us</strong></h2>
-        <div class="card">
-            <h5 class="card-header info-color white-text text-center py-4">
-                <strong>Contact us</strong>
-            </h5>
-            <div class="card-body px-lg-5 pt-0">
-                <form class="text-center" style="color: #757575;" action="#!">
-                    <div class="md-form mt-3">
-                        <input type="text" id="materialContactFormName" class="form-control">
-                        <label for="materialContactFormName">Name</label>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <h5 class="card-header bg-danger white-text text-center py-4">
+                    <strong>Contact us</strong>
+                    </h5>
+                    <div class="card-body px-lg-5 pt-0">
+                        <form class="text-center" style="color: #757575;" action="#!">
+                        <div class="md-form mt-3">
+                            <input type="text" id="materialContactFormName" class="form-control">
+                            <label for="materialContactFormName">Name</label>
+                        </div>
+                        <div class="md-form">
+                            <input type="email" id="materialContactFormEmail" class="form-control">
+                            <label for="materialContactFormEmail">E-mail</label>
+                        </div>
+                        <div class="md-form">
+                            <textarea id="materialContactFormMessage" class="form-control md-textarea" rows="3"></textarea>
+                            <label for="materialContactFormMessage">Message</label>
+                        </div>
+                        <button class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-4 waves-effect" type="submit">Send</button>
+                        </form>
                     </div>
-                    <div class="md-form">
-                        <input type="email" id="materialContactFormEmail" class="form-control">
-                        <label for="materialContactFormEmail">E-mail</label>
-                    </div>
-                    <div class="md-form">
-                        <textarea id="materialContactFormMessage" class="form-control md-textarea" rows="3"></textarea>
-                        <label for="materialContactFormMessage">Message</label>
-                    </div>
-                    <button class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-4 waves-effect" type="submit">Send</button>
-                </form>
+                </div>
             </div>
-          </div>
+        </div>
       </div>
    <!-- JQuery -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
