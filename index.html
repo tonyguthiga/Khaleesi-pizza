@@ -3,31 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/css/mdb.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <title>Khaleesi Pizza Inn</title>
 </head>
 <body>
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Khaleesi Pizza Inn</a>
-          </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Menu</a></li>
-              <li><a href="#">Contact Us</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+<nav class="mb-1 navbar navbar-expand-lg navbar-dark bg-danger">
+    <a class="navbar-brand brand" href="#home"><h3>KHALEESI PIZZA INN</h3></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+      aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#menu">Menu</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#order">Order</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
       <div class="home-page"  id="home">
          <h1>KHALEESI PIZZA INN:</h1> 
          <p>Delicious and Hot Pizza Just for You</p>
@@ -36,11 +50,7 @@
       <div class="container" id="about">
           <h2 class="text-center"><strong>ABOUT US</strong></h2>
           <div class="row">
-            <div class="col-md-6">
-                <img src="/images/size_1.jpeg" alt="small-size" class="pl-5" height="50%" width="50%">
-                <img src="/images/size_2.png" alt="large-size" height="40%" width="40%">
-            </div>
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <h3>We are the best pizza place;</h3>
                 <p>Using signature sauce: made from scratch crispy, crackery original thin crust, our skilled professionals are able
                    to offer you the best pizza taste in town.
@@ -57,7 +67,7 @@
       <div class="container" id="menu">
         <h2 class="text-center"><strong>MENU</strong></h2>
         <h3>Our offers & deals include;</h3>
-        <div class="row">
+        <div class="row mb-3">
             <div class="col-md-6 col-lg-4">
                 <div class="card">
                     <img src="/images/Margherita.jpg" class="card-img-top img-fluid">
@@ -118,7 +128,15 @@
         
         
       </div>
-   <script src="js/jquery-3.5.1.js"></script>
-   <script src="js/script.js"></script> 
+   <!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/js/mdb.min.js"></script>
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
