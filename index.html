@@ -145,10 +145,62 @@
                             <label for="materialContactFormEmail">E-mail</label>
                         </div>
                         <div class="md-form">
-                            <textarea id="materialContactFormMessage" class="form-control md-textarea" rows="3"></textarea>
+                            <textarea id="materialContactFormMessage" class="form-control md-textarea" rows="10"></textarea>
                             <label for="materialContactFormMessage">Message</label>
                         </div>
                         <button class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-4 waves-effect" type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <h5 class="card-header bg-danger white-text text-center py-4"><strong>Order from us</strong></h5>
+                    <div class="card-body px-lg-5 pt-0">
+                        <form class="text-center" style="color: #757575;" action="#!">
+                            <h4>Select size</h4>
+                            <div class="form-check-inline">
+                                <label class="form-check-label">
+                                  <input type="radio" class="form-check-input" name="optradio">Small-Ksh 600/=
+                                  <input type="radio" class="form-check-input" name="optradio">Medium-Ksh 800/=<br>
+                                  <input type="radio" class="form-check-input" name="optradio">Large-Ksh 1000/=
+                                  <input type="radio" class="form-check-input" name="optradio">X-Large-Ksh 1500/=
+                                </label>
+                            </div>
+                            <h4>Select crust</h4>
+                            <div class="form-check-inline">
+                                <label class="form-check-label">
+                                  <input type="radio" class="form-check-input" name="optradio">Crispy
+                                  <input type="radio" class="form-check-input" name="optradio"> Stuffed
+                                  <input type="radio" class="form-check-input" name="optradio">Gluten-free
+                                  <input type="radio" class="form-check-input" name="optradio">Flatbread
+                                </label>
+                              </div>
+                              <h4>Select Toppings</h4>
+                              <div class="form-check-inline">
+                                <label class="form-check-label">
+                                  <input type="checkbox" class="form-check-input" value="">Pepperoni
+                                  <input type="checkbox" class="form-check-input" value="">Cheese
+                                  <input type="checkbox" class="form-check-input" value="">Bacon/Ham
+                                  <input type="checkbox" class="form-check-input" value="">Mushrooms<br>
+                                  <input type="checkbox" class="form-check-input" value="">Onions
+                                  <input type="checkbox" class="form-check-input" value="">Sausage
+                                  <input type="checkbox" class="form-check-input" value="">Spinach
+                                  <input type="checkbox" class="form-check-input" value="">Black Olives
+                                </label>
+                              </div>
+                              <div class="form-group" required>
+                                <label for="sel1"><h4>Quantity</h4></label>
+                                <input type="number" id="qty" class="form-control" min="1" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="sel1">Pick-up Option:</label>
+                                <select class="form-control" id="sel1">
+                                  <option>Self Pick</option>
+                                  <option>Door Delivery</option>
+                                </select>
+                              </div>
+                        <button class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-4 waves-effect" type="submit">Order</button>
                         </form>
                     </div>
                 </div>
