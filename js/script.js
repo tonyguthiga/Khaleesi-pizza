@@ -87,8 +87,7 @@ $(document).ready(function(){
         var spinach = $("input#spinach").val();
         var blackOlives = $("input#blackOlives").val();
         var quantity = parseInt($("input#qty").val());
-        var delivery = $("select#sel1").val();
-        var location = prompt("Please enter your location");
+        var delivery = $("select#sel1").val(); 
         var val = [];
         $(':checkbox:checked').each(function(i){
           val[i] = $(this).val();
@@ -105,6 +104,7 @@ $(document).ready(function(){
         else{
             $("#final-cost").show();
             $("#final-cost").text(deliveryCost);
+            var location = prompt("Please enter your location");
             alert("You order has been received and will be delivered to your location in " + location + ". " + " Please proceed to checkout to see more details.")
             alert("You will be charged a delivery cost of Ksh. 300 and your total cost will be " + deliveryCost );
         }
