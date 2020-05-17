@@ -41,16 +41,16 @@ Order.prototype.pizzaCost = function(){
     else if(this.customSize === "family" && this.crust === "stuffed"){
         pizzaPrice = 1550;
     }
-    else if(this.customSize === "small" && this.crust === "glutten-free"){
+    else if(this.customSize === "small" && this.crust === "thick"){
         pizzaPrice = 650;
     }
-    else if(this.customSize === "medium" && this.crust === "glutten-free"){
+    else if(this.customSize === "medium" && this.crust === "thick"){
         pizzaPrice = 850;
     }
-    else if(this.customSize === "large" && this.crust === "glutten-free"){
+    else if(this.customSize === "large" && this.crust === "thick"){
         pizzaPrice = 1050;
     }
-    else if(this.customSize === "family" && this.crust === "glutten-free"){
+    else if(this.customSize === "family" && this.crust === "thick"){
         pizzaPrice = 1550;
     }
     else if(this.customSize === "small" && this.crust === "flatbread"){
