@@ -156,7 +156,8 @@
             <form class="text-center" style="color: #757575;" id="custom-pizza">
               <div class="form-group">
                 <label for="size">Select Size:</label>
-                <select class="form-control" id="size">
+                <select class="form-control" id="size" required>
+                  <option></option>
                   <option>small</option>
                   <option>medium</option>
                   <option>large</option>
@@ -165,7 +166,8 @@
               </div>
               <div class="form-group">
                 <label for="size">Select Crust:</label>
-                <select class="form-control" id="crust">
+                <select class="form-control" id="crust" required>
+                  <option></option>
                   <option>crispy</option>
                   <option>stuffed</option>
                   <option>thick</option>
@@ -216,7 +218,7 @@
                   <option>Door Delivery</option>
                 </select>
               </div>
-              <button class="btn btn-outline-danger btn-rounded btn-block z-depth-0 my-4 waves-effect" type="submit">Order</button>
+              <button class="btn btn-outline-danger btn-rounded btn-block z-depth-0 my-4 waves-effect" type="submit"> Place Order</button>
               <div id="price-content">
                 <h2>Cart</h2>
                 <h3>Price: Ksh.<span id="final-cost"></span></h3>
