@@ -108,7 +108,7 @@ $(document).ready(function(){
         }
         
         
-    })
+    });
 
     $("#final-cost").click(function() {
       });
@@ -116,4 +116,8 @@ $(document).ready(function(){
     $("#checkout-btn").click(function() {
         location.reload();
       });
-})
+    $("form#write").submit(function(){
+        var name = $("#write").val();
+        alert("We have received your message. Thank you for reaching out to us.")
+    });
+});
