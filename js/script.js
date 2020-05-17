@@ -88,7 +88,7 @@ $(document).ready(function(){
         var blackOlives = $("input#blackOlives").val();
         var quantity = parseInt($("input#qty").val());
         var delivery = $("select#sel1").val();
-        var location = prompt("Please enter your location", " ");
+        var location = prompt("Please enter your location");
         var val = [];
         $(':checkbox:checked').each(function(i){
           val[i] = $(this).val();
