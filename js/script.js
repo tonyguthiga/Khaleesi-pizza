@@ -1,5 +1,4 @@
 // business logic
-var totalPriceArray = []
 function Order(customSize, crust) {
     this.customSize = customSize;
     this.crust = crust;
@@ -72,13 +71,6 @@ Order.prototype.pizzaCost = function(){
     return pizzaPrice;
 }
 
-Order.prototype.finalCost = function () {
-    var cartTotalPrice = 0;
-    for (var arrayElement = 0; arrayElement < totalPriceArray.length; arrayElement ++) {
-      cartTotalPrice += totalPriceArray[arrayElement]; //////////////////////IMPORTANT!!! How to add contents of an array together
-    }
-    return cartTotalPrice;
-  }
 
 // User interface logic
 $(document).ready(function(){
