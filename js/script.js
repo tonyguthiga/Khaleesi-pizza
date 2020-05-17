@@ -26,7 +26,7 @@ Order.prototype.pizzaCost = function(){
     else if(this.customSize === "large" && this.crust === "crispy"){
         pizzaPrice = 1100;
     }
-    else if(this.customSize === "X-large" && this.crust === "crispy"){
+    else if(this.customSize === "family" && this.crust === "crispy"){
         pizzaPrice = 1600;
     }
     else if(this.customSize === "small" && this.crust === "stuffed"){
@@ -38,7 +38,7 @@ Order.prototype.pizzaCost = function(){
     else if(this.customSize === "large" && this.crust === "stuffed"){
         pizzaPrice = 1050;
     }
-    else if(this.customSize === "X-large" && this.crust === "stuffed"){
+    else if(this.customSize === "family" && this.crust === "stuffed"){
         pizzaPrice = 1550;
     }
     else if(this.customSize === "small" && this.crust === "glutten-free"){
@@ -50,7 +50,7 @@ Order.prototype.pizzaCost = function(){
     else if(this.customSize === "large" && this.crust === "glutten-free"){
         pizzaPrice = 1050;
     }
-    else if(this.customSize === "X-large" && this.crust === "glutten-free"){
+    else if(this.customSize === "family" && this.crust === "glutten-free"){
         pizzaPrice = 1550;
     }
     else if(this.customSize === "small" && this.crust === "flatbread"){
@@ -62,7 +62,7 @@ Order.prototype.pizzaCost = function(){
     else if(this.customSize === "large" && this.crust === "flatbread"){
         pizzaPrice = 1100;
     }
-    else if(this.customSize === "X-large" && this.crust === "flatbread"){
+    else if(this.customSize === "family" && this.crust === "flatbread"){
         pizzaPrice = 1600;
     }
     else {
