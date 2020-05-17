@@ -28,7 +28,8 @@
 <p>Select a pick up option, if you choose Door delivery you will get an alert showing the extra charges
    for the delivery.<p>
 <p>Click order button and you total cost will be shown in the cart section.<p>
-<p>You can also write us via the contact us form.<p>
+<p>You can also write us via the contact us form, alert pop up saying we have received your message and 
+   thank you for contacting us.<p>
 
 <h2>Technologies Used<h2>
 
