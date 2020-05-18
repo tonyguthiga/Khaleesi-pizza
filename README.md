@@ -4,7 +4,7 @@
 
 <p>The program allows the user to create a custom pizza order and display the total cost of the order in the cart section. User can also chose the mode of delivery either self pick-up or door delivered.<p>
 
-<h2>Setup/Installation Requirements<h2>
+<h2>Setup/Installation Requirements:<h2>
 
 <p>To enhance the application or fix any bug;<p>
 <p>Fork the project<p>
@@ -15,11 +15,11 @@
 <p>git commit -am and make a comment,so as to add and commit the changes made.<p>
 <p>Push the changes and create a pull request<p>
 
-<h2>Live Link<p>
+<h2>Live Link:<p>
 
 <p>https://tonyguthiga.github.io/Khaleesi-pizza/<p>
 
-<h2>Behavior Driven Development<p>
+<h2>Behavior Driven Development:<p>
 
 <p>Choose the size of pizza you would like.<p>
 <p>Choose the type of Crust you want.<p>
@@ -31,7 +31,7 @@
 <p>You can also write us via the contact us form, alert pop up saying we have received your message and 
    thank you for contacting us.<p>
 
-<h2>Technologies Used<h2>
+<h2>Technologies Used:<h2>
 
 <p>HTML<p>
 <p>CSS<p>
@@ -40,11 +40,11 @@
 <p>JQuery<p>
 <p>JavaScript<p>
 
-<h2>Author<p>
+<h2>Author:<p>
 
 <p>Antony Guthiga<p>
 
-<h2>License<h2>
+<h2>License:<h2>
 
 <p>MIT License<p>
 <p>Copyright(c) . All Right Reserved . Designed by Antony Guthiga<p>
