@@ -1,6 +1,6 @@
 # Khaleesi Pizza Inn
 
-## Description
+## Description:
 
 The program allows the user to create a custom pizza order and display the total cost of the order in the cart section. User can also chose the mode of delivery either self pick-up or door delivered.
 
