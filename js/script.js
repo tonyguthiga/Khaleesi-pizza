@@ -86,7 +86,7 @@ $(document).ready(function(){
         var sausage = $("input#sausage").val();
         var spinach = $("input#spinach").val();
         var blackOlives = $("input#blackOlives").val();
-        var quantity = parseInt($("input#qty").val());
+        var quantity = parseInt($("select#qty").val());
         var delivery = $("select#sel1").val(); 
         var val = [];
         $(':checkbox:checked').each(function(i){
